@@ -1,0 +1,11 @@
+### 🔑 Login - Obtém Token JWT e Armazena no Cookie
+POST http://localhost:5000/api/login
+Content-Type: application/json
+
+{
+  "username": "Yaakov",
+  "password": "123"
+}
+
+### 🔓 Acessar Rota Protegida - Envia o Cookie Automaticamente
+GET http://localhost:5000/api/protected
